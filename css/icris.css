@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+}
+
+.contenedor {
+    width: 98%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 60px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    margin-bottom: 40px;
+}
+
+.barra-de-arriba {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    padding-bottom: 10px;
+}
+
+.vista-principal {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr; 
+    gap: 60px;
+}
+
+.titulo img {
+    width: 100%;
+    height: auto;
+    max-height: 1250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.titulo h2 {
+    font-size: 2.8rem; 
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.titulo p {
+    font-size: 1.5rem; 
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
+
+
+.barra-del-lado {
+    border-left: 1px solid #ddd;
+    padding-left: 30px;
+}
+
+.barra-del-lado h3 {
+    font-size: 2rem; 
+    margin-bottom: 20px;
+    line-height: 1.2;
+    border-bottom: 4px solid #000;
+    padding-bottom: 10px;
+}
+
+.noticia p {
+    font-size: 1.15rem; 
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.noticia h4 {
+    font-size: 1.6rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.noticia img {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+}
+
+footer{
+    width: 100%;
+    padding: 12px 20px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: flex-end; /* lo manda a la izquierda */
+
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+
+    font-family: Arial, sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 0, 217);
+    font-weight: bold;
+
+    padding: 8px 14px;
+    border-radius: 6px;
+
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+footer a:hover{
+    background-color: #e6f0ff;
+    transform: translateX(-2px); /* pequeño movimiento hacia atrás */
+}
